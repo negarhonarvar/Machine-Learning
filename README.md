@@ -2,8 +2,16 @@
 Collection of codes I've written for Machine Learning Course Instructed by Dr. Hamed Malek.
 
 ## DBSCAN
-We are tasked to implement the DBSCAN algorithm in order to cluster two provided datasets. First, we create a scatter plot of these datasets to visualize their dispersion. Then,we apply the DBSCAN algorithm to perform clustering on the two datasets. Finally, the identified clusters are displayed through highlighting them with different colors to distinguish between them.
+We are tasked to implement the DBSCAN algorithm in order to cluster two provided datasets. First, we create a scatter plot of these datasets to visualize their dispersion as shown below :
+
+![image](https://github.com/user-attachments/assets/e3d778e9-e9d5-4f80-98ab-d0dfc7d23b6d) ![image](https://github.com/user-attachments/assets/93c92885-6c6e-4038-a5de-f910218c0195)
+
+
+Then,we apply the DBSCAN algorithm to perform clustering on the two datasets. Finally, the identified clusters are displayed through highlighting them with different colors to distinguish between them.
 Further details and results are provided within the notebook.
+
+![image](https://github.com/user-attachments/assets/ca1e226e-688f-4e99-87cc-67e5becfacd8) ![image](https://github.com/user-attachments/assets/b966483f-8d44-4900-b9c8-a7f62c4a33c0)
+
 
 ## SVM
 A stroke, also known as a cerebrovascular accident, occurs when a part of the brain is deprived of its blood supply, causing the part of the body controlled by the affected brain cells to stop functioning. This loss of blood supply can be due to a lack of blood flow or bleeding in the brain tissue. A stroke is a medical emergency because it can lead to death or permanent disability. There are treatments available for this type of stroke, but they must be initiated within a few hours after the symptoms appear.
@@ -71,10 +79,16 @@ Max Depth: This parameter controls the maximum depth of the tree. For example:
     Depths of 1, 2, and 3 typically result in underfitting, where the model is too simple to capture the data's complexity.
     Depths of 8, 9, and 10 may lead to overfitting, where the model becomes too complex and fits the training data too closely.
 
+![image](https://github.com/user-attachments/assets/23252d99-9ae8-4944-b3e1-7093b57f3e8c)
+
+
 Criterion: This is the function used to measure the quality of a split. Two common options are:
 
     Gini: Measures the impurity of a node by the probability of incorrectly classifying a randomly chosen element if it were randomly labeled according to the distribution of labels in the node.
     Entropy (Information Gain): Measures the information gained from a split, calculated as the reduction in entropy (or uncertainty) after the split.
+
+![image](https://github.com/user-attachments/assets/25b41cd9-6bdd-4a02-bc9f-59903d58750f)
+
 
 The Gini index is more computationally efficient, while the entropy criterion (also known as log loss in some contexts) is more theoretically sound but may be slower to compute.
 The criterion parameter in Scikit-learn allows you to choose between "gini" and "entropy" (log loss).
@@ -86,3 +100,7 @@ A learning curve is an essential tool to assess the performance of a model. It h
 
 we plotted learning curves using 25%, 50%, 75%, and 100% of the training data to evaluate how the model's performance scales with more data. 
 Further details and results are provided within the notebook.
+
+![image](https://github.com/user-attachments/assets/6e0dc066-5c88-437b-8141-4b2991b4285b) ![image](https://github.com/user-attachments/assets/db1584a2-cb16-421e-ad53-35e17e053278) ![image](https://github.com/user-attachments/assets/5efdaad3-9f20-4d78-8e0c-eda896b29887)
+
+
