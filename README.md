@@ -1,5 +1,5 @@
 # Machine-Learning
-Collection of codes I've written for Machine Learning Course Instructed by Dr. Hamed Malek.
+A Collection of codes I've written for Machine Learning Course Instructed by Dr. Hamed Malek.
 
 ## DBSCAN
 We are tasked to implement the DBSCAN algorithm in order to cluster two provided datasets. First, we create a scatter plot of these datasets to visualize their dispersion as shown below :
@@ -20,9 +20,9 @@ A stroke, also known as a cerebrovascular accident, occurs when a part of the br
 
 Provided with a dataset named strokes.csv, which includes information about individuals and their stroke history, our code implemented these steps:
 
-a. Perform preprocessing operations according to the problem's objective.
-b. Split the data into training and test sets with an appropriate ratio.
-c. Train a suitable model using the SVM algorithm from the sklearn library.
+a. Performing preprocessing operations according to the problem's objective.
+b. Splited the data into training and test sets with an appropriate ratio.
+c. Trained a suitable model using the SVM algorithm from the sklearn library.
 
 Further details and results are provided within the notebook.
 
@@ -33,6 +33,14 @@ Further details and results are provided within the notebook.
 In the health insurance industry, insurance companies often face challenges in accurately determining the premium for each policyholder. Mistakes in assessing patients' health risks can lead to significant financial losses. Therefore, accurately determining health insurance premiums is crucial for maintaining the financial stability of insurance companies and providing fair services to policyholders.
 
 In this project, we used a dataset containing information about health insurance policyholders, including age, number of children, smoking habits, residential area, gender, body mass index (BMI), and the medical expenses provided by the insurance. This dataset serves as a valuable resource for developing predictive models that can help health insurance companies assess risks and determine more accurate premiums. This project directly impacts the operational and business strategy of health insurance companies, ultimately benefiting both the companies and their policyholders.
+### Dataset
+Before :
+
+![image](https://github.com/user-attachments/assets/03fc2752-cce3-4df4-a5de-e03e525c3217)
+
+After :
+
+![image](https://github.com/user-attachments/assets/55487099-04b8-4a15-a2ad-fae2fcf09694)
 
 The objectives of this project are to develop machine learning models that can help health insurance companies with the following:
 
@@ -41,10 +49,22 @@ The objectives of this project are to develop machine learning models that can h
 
 Provided with a dataset named insurance.csv, which contains information about policyholders collected by one of the health insurance companies, our code implemented these steps:
 
-a. Perform preprocessing operations according to the problem's objective.
-b. Split the data into training and test sets with an appropriate ratio (report the reason for choosing the specific training-test ratio).
-c. Implement a linear regression model based on the concepts taught in class and report the model's accuracy on the test data.
-d. Extend your previous model to a polynomial regression and report the accuracy.
+a. Performed preprocessing operations according to the problem's objective.
+b. Splited the data into training and test sets with an appropriate ratio.
+c. Implemented a linear regression model.
+d. Extended our previous model to a polynomial regression and reported the accuracy.
+
+### Linear Regression model result
+
+![image](https://github.com/user-attachments/assets/442d2bfa-1389-4cf6-ae61-781aca33d77a)
+
+### Different Split size results
+
+![image](https://github.com/user-attachments/assets/6d22b962-7084-4417-9c94-c992d69f3479)
+
+### Polynominal Implementation results
+
+![image](https://github.com/user-attachments/assets/7390e202-0281-4c77-8ab2-c747b6bd8004)
 
 Further details and results are provided within the notebook.
 ## KNN
@@ -74,10 +94,10 @@ This curve helps evaluate the trade-off between true positive rates and false po
 
 
 ## Desicion Tree
-In this project, we aim to implement a decision tree from scratch for the purpose of multi-class classification in the following steps :
-a. Implement a decision tree model.
-b. Train this model on the given dataset and test the trained model with different hyperparameters.
-c. Using existing libraries, train Random Forest and Gradient Boosting models on this dataset. Then, train our models on 25%, 50%, 75%, and 100% of the data, and plot the Learning Curve separately for each. 
+In this project, I implemented a decision tree from scratch for the purpose of multi-class classification in the following steps :
+a. Implemented a decision tree model.
+b. Trained this model on the given dataset and test the trained model with different hyperparameters.
+c. Using existing libraries, trained Random Forest and Gradient Boosting models on this dataset. Then, trained our models on 25%, 50%, 75%, and 100% of the data, and ploted the Learning Curve separately for each. 
 The dataset provided includes the following features:
 
     Disease: The name of the disease or medical condition
