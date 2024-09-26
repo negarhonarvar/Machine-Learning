@@ -15,6 +15,9 @@ Further details and results are provided within the notebook.
 
 ## SVM
 A stroke, also known as a cerebrovascular accident, occurs when a part of the brain is deprived of its blood supply, causing the part of the body controlled by the affected brain cells to stop functioning. This loss of blood supply can be due to a lack of blood flow or bleeding in the brain tissue. A stroke is a medical emergency because it can lead to death or permanent disability. There are treatments available for this type of stroke, but they must be initiated within a few hours after the symptoms appear.
+
+![image](https://github.com/user-attachments/assets/7c637b29-1039-4aea-a231-cc3e3e569c3a)
+
 Provided with a dataset named strokes.csv, which includes information about individuals and their stroke history, our code implemented these steps:
 
 a. Perform preprocessing operations according to the problem's objective.
@@ -22,6 +25,10 @@ b. Split the data into training and test sets with an appropriate ratio.
 c. Train a suitable model using the SVM algorithm from the sklearn library.
 
 Further details and results are provided within the notebook.
+
+![image](https://github.com/user-attachments/assets/f0ebb766-843e-49f5-a02f-2c367dbc69e5) ![image](https://github.com/user-attachments/assets/9c54edb4-658f-41c5-87fd-4fd0afc0077a)
+
+
 ## Gradient Descent
 In the health insurance industry, insurance companies often face challenges in accurately determining the premium for each policyholder. Mistakes in assessing patients' health risks can lead to significant financial losses. Therefore, accurately determining health insurance premiums is crucial for maintaining the financial stability of insurance companies and providing fair services to policyholders.
 
@@ -42,6 +49,14 @@ d. Extend your previous model to a polynomial regression and report the accuracy
 Further details and results are provided within the notebook.
 ## KNN
 Implementation of the K-Nearest Neighbors (KNN) algorithm from scratch on Desicion tree dataset. The accuracy of model on the test data is reported using the functions from the Scikit-learn library. The ROC curve for Trained KNN model is plotted.The ROC (Receiver Operating Characteristic) curve is a graphical plot that illustrates the diagnostic ability of a binary classifier system as its discrimination threshold is varied.
+### Dataset
+before :
+
+![image](https://github.com/user-attachments/assets/b6e3dff9-6b21-4b67-b1d5-614117a53964)
+
+after :
+
+![image](https://github.com/user-attachments/assets/e6b6617f-f333-4020-a4fa-9bc93a9a8a2c)
 
 Key concepts and uses of the ROC curve include:
 
@@ -54,6 +69,10 @@ Key concepts and uses of the ROC curve include:
         The closer the AUC is to 1, the better the model's performance.
 
 This curve helps evaluate the trade-off between true positive rates and false positive rates, providing a clear picture of the model's classification power. The closer the curve is to the top-left corner, the better the model's performance, indicated by a higher AUC value.
+
+![image](https://github.com/user-attachments/assets/fc0ee073-68e4-478f-8025-ee96f59f41d4)
+
+
 ## Desicion Tree
 In this project, we aim to implement a decision tree from scratch for the purpose of multi-class classification in the following steps :
 a. Implement a decision tree model.
