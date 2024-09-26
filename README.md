@@ -4,7 +4,10 @@ A Collection of codes I've written for Machine Learning Course Instructed by Dr.
 ## DBSCAN
 We are tasked to implement the DBSCAN algorithm in order to cluster two provided datasets. First, we create a scatter plot of these datasets to visualize their dispersion as shown below :
 
-<img src ="https://github.com/user-attachments/assets/e3d778e9-e9d5-4f80-98ab-d0dfc7d23b6d) ![image](https://github.com/user-attachments/assets/93c92885-6c6e-4038-a5de-f910218c0195" width ="400">
+<img src ="https://github.com/user-attachments/assets/e3d778e9-e9d5-4f80-98ab-d0dfc7d23b6d" width ="400"> 
+
+
+<img src="https://github.com/user-attachments/assets/93c92885-6c6e-4038-a5de-f910218c0195" width ="400">
 
 
 Then,we apply the DBSCAN algorithm to perform clustering on the two datasets. Finally, the identified clusters are displayed through highlighting them with different colors to distinguish between them.
